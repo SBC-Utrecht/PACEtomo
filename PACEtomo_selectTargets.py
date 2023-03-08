@@ -17,10 +17,10 @@ targetByShift 	= False		# ask to enter image shifts instead of dragging manually
 
 targetPattern 	= False		# regular pattern of targets (holey support film)
 alignToP 	= False		# refine vectors by aligning to hole reference in buffer P
-size 		= 1 		# size of collection pattern (1: 3x3, 2: 5x5, 3: 7x7, ...)
+size 		= 2 		# size of collection pattern (1: 3x3, 2: 5x5, 3: 7x7, ...)
 
 drawBeam 	= True		# draws navigator item representing beam diameter
-beamDiameter 	= 0 		# beam diameter [microns] (if 0, ReportIlluminatedArea will be used, which is only available on some Thermo Scientific microscopes)
+beamDiameter 	= 2.3 		# beam diameter [microns] (if 0, ReportIlluminatedArea will be used, which is only available on some Thermo Scientific microscopes)
 maxTilt 	= 60		# tilt angle [degrees] to calculate stretching of beam perpendicular to tilt axis
 
 # Advanced settings
